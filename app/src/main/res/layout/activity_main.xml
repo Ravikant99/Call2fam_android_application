@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Click2Call"
+            android:textAllCaps="true"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/red"
+            android:gravity="center_horizontal"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/familymembers"
+        android:gravity="center_horizontal"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/purple_700" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <ImageButton
+                    android:src="@drawable/papa"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:textAllCaps="true"
+                    android:layout_margin="10dp"
+                    android:onClick= "papaCall" />
+
+                <ImageButton
+                    android:src="@drawable/ma"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="10dp"
+                    android:onClick="shivamCall"/>
+
+                <ImageButton
+                    android:src="@drawable/chacha_photo"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="10dp"
+                    android:onClick="chachaCall"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <ImageButton
+                    android:src="@drawable/ladu"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="10dp"
+                    android:onClick="laduCall"/>
+                <ImageButton
+                    android:src="@drawable/up"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="10dp"
+                    android:onClick="uBhaiyaCall"/>
+                <ImageButton
+                    android:src="@drawable/del"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="10dp"
+                    android:onClick="delhiCall"/>
+
+
+            </LinearLayout>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/relatives"
+                android:gravity="center_horizontal"
+                android:textSize="20dp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/purple_700" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <ImageButton
+                    android:src="@drawable/jalalpur"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="10dp"
+                    android:onClick="jalalpurCall"/>
+                <ImageButton
+                    android:src="@drawable/miku"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="10dp"
+                    android:onClick="mikuCall"/>
+                <ImageButton
+                    android:src="@drawable/jalalpur"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="10dp"
+                    android:onClick="mamaCall"/>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/friends"
+                android:gravity="center_horizontal"
+                android:textSize="20dp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/purple_700" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <ImageButton
+                    android:src="@drawable/ankit"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="10dp"
+                    android:onClick="ankitCall"/>
+                <ImageButton
+                    android:src="@drawable/amrit"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="10dp"
+                    android:onClick="amritCall"/>
+                <ImageButton
+                    android:src="@drawable/shubham"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="10dp"
+                    android:onClick="shubhamCall"/>
+
+
+            </LinearLayout>
+
+
+</LinearLayout>
+
+

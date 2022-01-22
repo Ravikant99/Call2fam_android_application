@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Call2fam</string>
+    <string name="familymembers">FamilyMembers</string>
+    <string name="fam1">Papa</string>
+    <string name="fam2">Shivam</string>
+    <string name="fam3">Chacha</string>
+    <string name="fam4">Ladu</string>
+    <string name="fam5">U.bhaiya</string>
+    <string name="fam6">Delhi</string>
+    <string name="relatives">Relatives</string>
+    <string name="rel1">Jalalpur</string>
+    <string name="rel2">Miku</string>
+    <string name="rel3">Mama</string>
+    <string name="friends">Friends</string>
+    <string name="ankit">Ankit</string>
+    <string name="amrit">Amrit</string>
+    <string name="shubham">Shubham</string>
+</resources>
